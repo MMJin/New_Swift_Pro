@@ -1,0 +1,6 @@
+module Pods_guide_swift {
+  umbrella header "Pods-guide_swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
