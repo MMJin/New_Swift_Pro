@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		D021BA06C06D561CBE338C0B /* libPods-guide_swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F17B9959010C3269C9AE87B9 /* libPods-guide_swift.a */; };
+		E56CBC0C24F39CF400D5510A /* MJ_ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CBC0724F39CF400D5510A /* MJ_ClassView.swift */; };
+		E56CBC0D24F39CF400D5510A /* MJ_HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CBC0824F39CF400D5510A /* MJ_HomePageView.swift */; };
+		E56CBC0E24F39CF400D5510A /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CBC0924F39CF400D5510A /* HomePageVC.swift */; };
+		E56CBC0F24F39CF400D5510A /* MJ_BookRackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CBC0A24F39CF400D5510A /* MJ_BookRackView.swift */; };
+		E56CBC1024F39CF400D5510A /* MJ_MineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CBC0B24F39CF400D5510A /* MJ_MineView.swift */; };
+		E56CBC1224F39D0100D5510A /* HomepageTab_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CBC1124F39D0100D5510A /* HomepageTab_VC.swift */; };
 		E58CAD7D24E0EEB700569335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CAD7C24E0EEB700569335 /* AppDelegate.swift */; };
 		E58CAD7F24E0EEB700569335 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CAD7E24E0EEB700569335 /* SceneDelegate.swift */; };
 		E58CAD8124E0EEB700569335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CAD8024E0EEB700569335 /* ViewController.swift */; };
@@ -25,8 +31,6 @@
 		E58CADBE24E0F56600569335 /* lead03.png in Resources */ = {isa = PBXBuildFile; fileRef = E58CADB824E0F56600569335 /* lead03.png */; };
 		E58CADBF24E0F56600569335 /* HHGuidePageHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CADB924E0F56600569335 /* HHGuidePageHUD.swift */; };
 		E58CADC124E1165B00569335 /* MJ_LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CADC024E1165B00569335 /* MJ_LoginView.swift */; };
-		E58CADC424E24EFF00569335 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CADC324E24EFF00569335 /* HomePageVC.swift */; };
-		E58CADC624E24F2D00569335 /* MJ_HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CADC524E24F2D00569335 /* MJ_HomePageView.swift */; };
 		E58CADC824E2666800569335 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CADC724E2666800569335 /* LoginViewModel.swift */; };
 		E58CADCA24E26D0100569335 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CADC924E26D0100569335 /* LoginVM.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +55,12 @@
 /* Begin PBXFileReference section */
 		778D199F195E5880B2ECFD7A /* Pods-guide_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guide_swift.release.xcconfig"; path = "Target Support Files/Pods-guide_swift/Pods-guide_swift.release.xcconfig"; sourceTree = "<group>"; };
 		DEC465D547AE03C6F269BC45 /* Pods-guide_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guide_swift.debug.xcconfig"; path = "Target Support Files/Pods-guide_swift/Pods-guide_swift.debug.xcconfig"; sourceTree = "<group>"; };
+		E56CBC0724F39CF400D5510A /* MJ_ClassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJ_ClassView.swift; sourceTree = "<group>"; };
+		E56CBC0824F39CF400D5510A /* MJ_HomePageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJ_HomePageView.swift; sourceTree = "<group>"; };
+		E56CBC0924F39CF400D5510A /* HomePageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
+		E56CBC0A24F39CF400D5510A /* MJ_BookRackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJ_BookRackView.swift; sourceTree = "<group>"; };
+		E56CBC0B24F39CF400D5510A /* MJ_MineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJ_MineView.swift; sourceTree = "<group>"; };
+		E56CBC1124F39D0100D5510A /* HomepageTab_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageTab_VC.swift; sourceTree = "<group>"; };
 		E58CAD7924E0EEB700569335 /* guide_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guide_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58CAD7C24E0EEB700569335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E58CAD7E24E0EEB700569335 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,8 +84,6 @@
 		E58CADB824E0F56600569335 /* lead03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lead03.png; sourceTree = "<group>"; };
 		E58CADB924E0F56600569335 /* HHGuidePageHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HHGuidePageHUD.swift; sourceTree = "<group>"; };
 		E58CADC024E1165B00569335 /* MJ_LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJ_LoginView.swift; sourceTree = "<group>"; };
-		E58CADC324E24EFF00569335 /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
-		E58CADC524E24F2D00569335 /* MJ_HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJ_HomePageView.swift; sourceTree = "<group>"; };
 		E58CADC724E2666800569335 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		E58CADC924E26D0100569335 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
 		F17B9959010C3269C9AE87B9 /* libPods-guide_swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-guide_swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +132,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E56CBC0624F39CF400D5510A /* AboutHomePage */ = {
+			isa = PBXGroup;
+			children = (
+				E56CBC0724F39CF400D5510A /* MJ_ClassView.swift */,
+				E56CBC0824F39CF400D5510A /* MJ_HomePageView.swift */,
+				E56CBC0924F39CF400D5510A /* HomePageVC.swift */,
+				E56CBC0A24F39CF400D5510A /* MJ_BookRackView.swift */,
+				E56CBC0B24F39CF400D5510A /* MJ_MineView.swift */,
+			);
+			path = AboutHomePage;
+			sourceTree = "<group>";
+		};
 		E58CAD7024E0EEB700569335 = {
 			isa = PBXGroup;
 			children = (
@@ -149,14 +169,14 @@
 		E58CAD7B24E0EEB700569335 /* guide_swift */ = {
 			isa = PBXGroup;
 			children = (
+				E56CBC1124F39D0100D5510A /* HomepageTab_VC.swift */,
+				E56CBC0624F39CF400D5510A /* AboutHomePage */,
 				E58CADB324E0F56600569335 /* HHGuidePageHUD */,
 				E58CADC224E116A100569335 /* Other */,
 				E58CADAF24E0EFE600569335 /* HomeVC.swift */,
 				E58CADC024E1165B00569335 /* MJ_LoginView.swift */,
 				E58CADC724E2666800569335 /* LoginViewModel.swift */,
 				E58CADC924E26D0100569335 /* LoginVM.swift */,
-				E58CADC324E24EFF00569335 /* HomePageVC.swift */,
-				E58CADC524E24F2D00569335 /* MJ_HomePageView.swift */,
 			);
 			path = guide_swift;
 			sourceTree = "<group>";
@@ -373,13 +393,17 @@
 				E58CADC824E2666800569335 /* LoginViewModel.swift in Sources */,
 				E58CADB024E0EFE600569335 /* HomeVC.swift in Sources */,
 				E58CAD8124E0EEB700569335 /* ViewController.swift in Sources */,
+				E56CBC1024F39CF400D5510A /* MJ_MineView.swift in Sources */,
+				E56CBC0E24F39CF400D5510A /* HomePageVC.swift in Sources */,
+				E56CBC0D24F39CF400D5510A /* MJ_HomePageView.swift in Sources */,
 				E58CAD7D24E0EEB700569335 /* AppDelegate.swift in Sources */,
-				E58CADC424E24EFF00569335 /* HomePageVC.swift in Sources */,
 				E58CADBA24E0F56600569335 /* UIImage+GIF.swift in Sources */,
+				E56CBC0C24F39CF400D5510A /* MJ_ClassView.swift in Sources */,
 				E58CADCA24E26D0100569335 /* LoginVM.swift in Sources */,
 				E58CAD7F24E0EEB700569335 /* SceneDelegate.swift in Sources */,
+				E56CBC0F24F39CF400D5510A /* MJ_BookRackView.swift in Sources */,
 				E58CADC124E1165B00569335 /* MJ_LoginView.swift in Sources */,
-				E58CADC624E24F2D00569335 /* MJ_HomePageView.swift in Sources */,
+				E56CBC1224F39D0100D5510A /* HomepageTab_VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
