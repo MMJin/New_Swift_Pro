@@ -15,6 +15,10 @@
 		E56CBC1024F39CF400D5510A /* MJ_MineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CBC0B24F39CF400D5510A /* MJ_MineView.swift */; };
 		E56CBC1224F39D0100D5510A /* HomepageTab_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CBC1124F39D0100D5510A /* HomepageTab_VC.swift */; };
 		E56CBC1524F4EBDF00D5510A /* MJ_HomePageTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CBC1424F4EBDF00D5510A /* MJ_HomePageTabCell.swift */; };
+		E56CBC1724F750E100D5510A /* Pro_DefineInfoFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CBC1624F750E100D5510A /* Pro_DefineInfoFile.swift */; };
+		E56CBC1924F7511600D5510A /* Pro_ApiDefineInfoFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CBC1824F7511600D5510A /* Pro_ApiDefineInfoFile.swift */; };
+		E56CBC1B24F752D100D5510A /* MJ_HomePageVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CBC1A24F752D100D5510A /* MJ_HomePageVM.swift */; };
+		E56CBC1D24F7532100D5510A /* Pro_RequestApiTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CBC1C24F7532100D5510A /* Pro_RequestApiTool.swift */; };
 		E58CAD7D24E0EEB700569335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CAD7C24E0EEB700569335 /* AppDelegate.swift */; };
 		E58CAD7F24E0EEB700569335 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CAD7E24E0EEB700569335 /* SceneDelegate.swift */; };
 		E58CAD8124E0EEB700569335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CAD8024E0EEB700569335 /* ViewController.swift */; };
@@ -63,6 +67,10 @@
 		E56CBC0B24F39CF400D5510A /* MJ_MineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJ_MineView.swift; sourceTree = "<group>"; };
 		E56CBC1124F39D0100D5510A /* HomepageTab_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageTab_VC.swift; sourceTree = "<group>"; };
 		E56CBC1424F4EBDF00D5510A /* MJ_HomePageTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJ_HomePageTabCell.swift; sourceTree = "<group>"; };
+		E56CBC1624F750E100D5510A /* Pro_DefineInfoFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pro_DefineInfoFile.swift; sourceTree = "<group>"; };
+		E56CBC1824F7511600D5510A /* Pro_ApiDefineInfoFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pro_ApiDefineInfoFile.swift; sourceTree = "<group>"; };
+		E56CBC1A24F752D100D5510A /* MJ_HomePageVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJ_HomePageVM.swift; sourceTree = "<group>"; };
+		E56CBC1C24F7532100D5510A /* Pro_RequestApiTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pro_RequestApiTool.swift; sourceTree = "<group>"; };
 		E58CAD7924E0EEB700569335 /* guide_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guide_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58CAD7C24E0EEB700569335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E58CAD7E24E0EEB700569335 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +159,7 @@
 			children = (
 				E56CBC0824F39CF400D5510A /* MJ_HomePageView.swift */,
 				E56CBC1424F4EBDF00D5510A /* MJ_HomePageTabCell.swift */,
+				E56CBC1A24F752D100D5510A /* MJ_HomePageVM.swift */,
 			);
 			path = "AboutTablView（首页）";
 			sourceTree = "<group>";
@@ -180,6 +189,9 @@
 		E58CAD7B24E0EEB700569335 /* guide_swift */ = {
 			isa = PBXGroup;
 			children = (
+				E56CBC1624F750E100D5510A /* Pro_DefineInfoFile.swift */,
+				E56CBC1824F7511600D5510A /* Pro_ApiDefineInfoFile.swift */,
+				E56CBC1C24F7532100D5510A /* Pro_RequestApiTool.swift */,
 				E56CBC1124F39D0100D5510A /* HomepageTab_VC.swift */,
 				E56CBC0624F39CF400D5510A /* AboutHomePage */,
 				E58CADB324E0F56600569335 /* HHGuidePageHUD */,
@@ -403,6 +415,7 @@
 				E58CADBF24E0F56600569335 /* HHGuidePageHUD.swift in Sources */,
 				E58CADC824E2666800569335 /* LoginViewModel.swift in Sources */,
 				E58CADB024E0EFE600569335 /* HomeVC.swift in Sources */,
+				E56CBC1724F750E100D5510A /* Pro_DefineInfoFile.swift in Sources */,
 				E58CAD8124E0EEB700569335 /* ViewController.swift in Sources */,
 				E56CBC1024F39CF400D5510A /* MJ_MineView.swift in Sources */,
 				E56CBC0E24F39CF400D5510A /* HomePageVC.swift in Sources */,
@@ -410,6 +423,9 @@
 				E58CAD7D24E0EEB700569335 /* AppDelegate.swift in Sources */,
 				E58CADBA24E0F56600569335 /* UIImage+GIF.swift in Sources */,
 				E56CBC0C24F39CF400D5510A /* MJ_ClassView.swift in Sources */,
+				E56CBC1D24F7532100D5510A /* Pro_RequestApiTool.swift in Sources */,
+				E56CBC1924F7511600D5510A /* Pro_ApiDefineInfoFile.swift in Sources */,
+				E56CBC1B24F752D100D5510A /* MJ_HomePageVM.swift in Sources */,
 				E56CBC1524F4EBDF00D5510A /* MJ_HomePageTabCell.swift in Sources */,
 				E58CADCA24E26D0100569335 /* LoginVM.swift in Sources */,
 				E58CAD7F24E0EEB700569335 /* SceneDelegate.swift in Sources */,
