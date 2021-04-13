@@ -12,11 +12,14 @@ class HomeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.yellow
+        self.view.backgroundColor = UIColor.white
         self.title = "用户登录"
         let loginV = MJ_LoginView()
         loginV.frame = CGRect.init(x: 0, y: 10, width: MJScreenWidth, height: MJScreenHeight)
-
+        loginV.callBackIsNormal { (s) -> String in
+            print(s)
+            return""
+        }
         loginV.myBlock = {(name:String)->String in
             print("返回"+name)
             if name == "登录成功" {

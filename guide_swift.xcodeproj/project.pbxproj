@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D021BA06C06D561CBE338C0B /* libPods-guide_swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F17B9959010C3269C9AE87B9 /* libPods-guide_swift.a */; };
+		E560EE59260C667100E991F8 /* TestUIListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560EE58260C667100E991F8 /* TestUIListVC.swift */; };
+		E560EE6F260C701800E991F8 /* AboutFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560EE6E260C701800E991F8 /* AboutFont.swift */; };
+		E560EE78260C72E900E991F8 /* AboutFontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560EE77260C72E900E991F8 /* AboutFontView.swift */; };
+		E560EE81260C84B700E991F8 /* LimitInputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560EE80260C84B700E991F8 /* LimitInputVC.swift */; };
 		E56CBC0C24F39CF400D5510A /* MJ_ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CBC0724F39CF400D5510A /* MJ_ClassView.swift */; };
 		E56CBC0D24F39CF400D5510A /* MJ_HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CBC0824F39CF400D5510A /* MJ_HomePageView.swift */; };
 		E56CBC0E24F39CF400D5510A /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56CBC0924F39CF400D5510A /* HomePageVC.swift */; };
@@ -38,6 +42,7 @@
 		E58CADC124E1165B00569335 /* MJ_LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CADC024E1165B00569335 /* MJ_LoginView.swift */; };
 		E58CADC824E2666800569335 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CADC724E2666800569335 /* LoginViewModel.swift */; };
 		E58CADCA24E26D0100569335 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58CADC924E26D0100569335 /* LoginVM.swift */; };
+		E59B5ACD2612EE0300E79128 /* PullToRefreshVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59B5ACC2612EE0300E79128 /* PullToRefreshVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +65,10 @@
 /* Begin PBXFileReference section */
 		778D199F195E5880B2ECFD7A /* Pods-guide_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guide_swift.release.xcconfig"; path = "Target Support Files/Pods-guide_swift/Pods-guide_swift.release.xcconfig"; sourceTree = "<group>"; };
 		DEC465D547AE03C6F269BC45 /* Pods-guide_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guide_swift.debug.xcconfig"; path = "Target Support Files/Pods-guide_swift/Pods-guide_swift.debug.xcconfig"; sourceTree = "<group>"; };
+		E560EE58260C667100E991F8 /* TestUIListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUIListVC.swift; sourceTree = "<group>"; };
+		E560EE6E260C701800E991F8 /* AboutFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutFont.swift; sourceTree = "<group>"; };
+		E560EE77260C72E900E991F8 /* AboutFontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutFontView.swift; sourceTree = "<group>"; };
+		E560EE80260C84B700E991F8 /* LimitInputVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitInputVC.swift; sourceTree = "<group>"; };
 		E56CBC0724F39CF400D5510A /* MJ_ClassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJ_ClassView.swift; sourceTree = "<group>"; };
 		E56CBC0824F39CF400D5510A /* MJ_HomePageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJ_HomePageView.swift; sourceTree = "<group>"; };
 		E56CBC0924F39CF400D5510A /* HomePageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
@@ -96,6 +105,7 @@
 		E58CADC024E1165B00569335 /* MJ_LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJ_LoginView.swift; sourceTree = "<group>"; };
 		E58CADC724E2666800569335 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		E58CADC924E26D0100569335 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		E59B5ACC2612EE0300E79128 /* PullToRefreshVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefreshVC.swift; sourceTree = "<group>"; };
 		F17B9959010C3269C9AE87B9 /* libPods-guide_swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-guide_swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -142,6 +152,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E560EE57260C662900E991F8 /* TestUI */ = {
+			isa = PBXGroup;
+			children = (
+				E560EE58260C667100E991F8 /* TestUIListVC.swift */,
+				E560EE80260C84B700E991F8 /* LimitInputVC.swift */,
+				E59B5ACC2612EE0300E79128 /* PullToRefreshVC.swift */,
+				E560EE73260C724F00E991F8 /* AboutFontSomeThing */,
+			);
+			path = TestUI;
+			sourceTree = "<group>";
+		};
+		E560EE73260C724F00E991F8 /* AboutFontSomeThing */ = {
+			isa = PBXGroup;
+			children = (
+				E560EE6E260C701800E991F8 /* AboutFont.swift */,
+				E560EE77260C72E900E991F8 /* AboutFontView.swift */,
+			);
+			path = AboutFontSomeThing;
+			sourceTree = "<group>";
+		};
 		E56CBC0624F39CF400D5510A /* AboutHomePage */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +197,9 @@
 		E58CAD7024E0EEB700569335 = {
 			isa = PBXGroup;
 			children = (
+				E58CAD7C24E0EEB700569335 /* AppDelegate.swift */,
+				E58CAD7E24E0EEB700569335 /* SceneDelegate.swift */,
+				E560EE57260C662900E991F8 /* TestUI */,
 				E58CAD7B24E0EEB700569335 /* guide_swift */,
 				E58CAD9524E0EEB900569335 /* guide_swifitTests */,
 				E58CADA024E0EEB900569335 /* guide_swifitUITests */,
@@ -189,13 +222,13 @@
 		E58CAD7B24E0EEB700569335 /* guide_swift */ = {
 			isa = PBXGroup;
 			children = (
+				E58CADC224E116A100569335 /* Other */,
 				E56CBC1624F750E100D5510A /* Pro_DefineInfoFile.swift */,
 				E56CBC1824F7511600D5510A /* Pro_ApiDefineInfoFile.swift */,
 				E56CBC1C24F7532100D5510A /* Pro_RequestApiTool.swift */,
 				E56CBC1124F39D0100D5510A /* HomepageTab_VC.swift */,
 				E56CBC0624F39CF400D5510A /* AboutHomePage */,
 				E58CADB324E0F56600569335 /* HHGuidePageHUD */,
-				E58CADC224E116A100569335 /* Other */,
 				E58CADAF24E0EFE600569335 /* HomeVC.swift */,
 				E58CADC024E1165B00569335 /* MJ_LoginView.swift */,
 				E58CADC724E2666800569335 /* LoginViewModel.swift */,
@@ -238,8 +271,6 @@
 		E58CADC224E116A100569335 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				E58CAD7C24E0EEB700569335 /* AppDelegate.swift */,
-				E58CAD7E24E0EEB700569335 /* SceneDelegate.swift */,
 				E58CAD8024E0EEB700569335 /* ViewController.swift */,
 				E58CAD8224E0EEB700569335 /* Main.storyboard */,
 				E58CAD8824E0EEB900569335 /* Assets.xcassets */,
@@ -413,9 +444,12 @@
 			files = (
 				E58CAD8724E0EEB700569335 /* guide_swifit.xcdatamodeld in Sources */,
 				E58CADBF24E0F56600569335 /* HHGuidePageHUD.swift in Sources */,
+				E560EE81260C84B700E991F8 /* LimitInputVC.swift in Sources */,
 				E58CADC824E2666800569335 /* LoginViewModel.swift in Sources */,
 				E58CADB024E0EFE600569335 /* HomeVC.swift in Sources */,
+				E560EE59260C667100E991F8 /* TestUIListVC.swift in Sources */,
 				E56CBC1724F750E100D5510A /* Pro_DefineInfoFile.swift in Sources */,
+				E560EE6F260C701800E991F8 /* AboutFont.swift in Sources */,
 				E58CAD8124E0EEB700569335 /* ViewController.swift in Sources */,
 				E56CBC1024F39CF400D5510A /* MJ_MineView.swift in Sources */,
 				E56CBC0E24F39CF400D5510A /* HomePageVC.swift in Sources */,
@@ -424,10 +458,12 @@
 				E58CADBA24E0F56600569335 /* UIImage+GIF.swift in Sources */,
 				E56CBC0C24F39CF400D5510A /* MJ_ClassView.swift in Sources */,
 				E56CBC1D24F7532100D5510A /* Pro_RequestApiTool.swift in Sources */,
+				E59B5ACD2612EE0300E79128 /* PullToRefreshVC.swift in Sources */,
 				E56CBC1924F7511600D5510A /* Pro_ApiDefineInfoFile.swift in Sources */,
 				E56CBC1B24F752D100D5510A /* MJ_HomePageVM.swift in Sources */,
 				E56CBC1524F4EBDF00D5510A /* MJ_HomePageTabCell.swift in Sources */,
 				E58CADCA24E26D0100569335 /* LoginVM.swift in Sources */,
+				E560EE78260C72E900E991F8 /* AboutFontView.swift in Sources */,
 				E58CAD7F24E0EEB700569335 /* SceneDelegate.swift in Sources */,
 				E56CBC0F24F39CF400D5510A /* MJ_BookRackView.swift in Sources */,
 				E58CADC124E1165B00569335 /* MJ_LoginView.swift in Sources */,

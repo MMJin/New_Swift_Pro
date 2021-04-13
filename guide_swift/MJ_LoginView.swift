@@ -8,7 +8,7 @@
 
 import UIKit
 import SnapKit
-typealias firstBlock = ((_ name:String)->String)?
+typealias firstBlock = (_ name:String)->String
 let MJScreenWidth = UIScreen.main.bounds.size.width
 let MJScreenHeight = UIScreen.main.bounds.size.height
 
@@ -21,7 +21,9 @@ class MJ_LoginView: UIView,UITextFieldDelegate {
     let blockB = {(name:String) -> String in
          return name + "某人的名字"
     }
+    //声明属性
     let phoneText = UITextField()
+    let phonePaswordText = UITextField()
 
     init(){
         super.init(frame: loginV_frame)
@@ -31,6 +33,11 @@ class MJ_LoginView: UIView,UITextFieldDelegate {
         print(blockB("金"))
         self .setUI()
     }
+    func callBackIsNormal(_ block: @escaping firstBlock) {
+        sleep(2)
+        block("逃逸算什么呢")
+
+    }
   public  func makeq(forinc:uint)->firstBlock {
         _ = "是不是傻的"
         func intC(_ name:String)->String{
@@ -39,14 +46,43 @@ class MJ_LoginView: UIView,UITextFieldDelegate {
         return intC
     }
     func setUI()  {
+
+        let userImage = UIImageView()
+        self .addSubview(userImage)
+        userImage .snp_makeConstraints { (make) in
+            make.centerX.equalToSuperview()
+            make.centerY.equalToSuperview().offset(-100)
+            make.width.height.equalTo(100)
+        };
+        userImage.layer.cornerRadius = 50
+        userImage.layer.masksToBounds = true
+        userImage.image = UIImage.init(named: "lead03")
+
+
         phoneText.placeholder = "请输入手机号"
         phoneText.backgroundColor = .green
         phoneText.delegate = self
-        phoneText.borderStyle = .roundedRect;
+        phoneText.borderStyle = .roundedRect
         self .addSubview(phoneText)
         phoneText.snp_makeConstraints { (make) in
-            make.edges.equalTo(self).inset(UIEdgeInsets(top: 84, left: 0, bottom: MJScreenHeight-124, right: 0))
+            make.top.equalTo(userImage.snp.bottom).offset(20)
+            make.size.equalTo(40).priority(.high)
+            make.left.equalTo(self).offset(40)
+            make.right.equalTo(self).offset(-40)
         }
+
+        phonePaswordText.placeholder = "请输入用户密码"
+        phonePaswordText.backgroundColor = .cyan
+        phonePaswordText.delegate = self
+        phonePaswordText.borderStyle = .roundedRect
+        self.addSubview(phonePaswordText)
+        phonePaswordText.snp_makeConstraints { (make) in
+            make.top.equalTo(phoneText.snp.bottom).offset(5)
+            make.size.equalTo(40).priority(.high)
+            make.left.equalTo(self).offset(40)
+            make.right.equalTo(self).offset(-40)
+        }
+
 
         let loginBtn = UIButton()
         loginBtn.setTitle("登录", for:.normal)
@@ -55,25 +91,28 @@ class MJ_LoginView: UIView,UITextFieldDelegate {
         loginBtn .addTarget(self, action:#selector(login(_ :)), for: .touchUpInside)
         self .addSubview(loginBtn)
         loginBtn.snp_makeConstraints { (make) in
-            make.top.equalTo(phoneText.snp_bottom).offset(5)
-            make.left.equalTo(self).offset(0)
-            make.right.equalTo(self).offset(0)
+            make.top.equalTo(phonePaswordText.snp_bottom).offset(50)
+            make.left.equalTo(self).offset(80)
+            make.right.equalTo(self).offset(-80)
             make.height.equalTo(40)
         }
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         phoneText.resignFirstResponder()
+        phonePaswordText.resignFirstResponder()
     }
 
     @objc func login(_ btn:UIButton){
-        //print("点击了登录" + "\(btn.tag)" + phoneText.text!)
-        let loginResult = LoginVM().login()
-        if loginResult {
-            if myBlock != nil {
-               myBlock!!("登录成功")
+        let loginResult = LoginVM().login(phone: phoneText.text!, pasword: phonePaswordText.text!)
+        LoginVM().myBlock = {(_ loginStatus:String) ->String in
+
+                print("点击了登录" + "\(btn.tag)" + loginStatus)
+                if self.myBlock != nil {
+                    self.myBlock!("登录成功")
+                    print("点击了登录" + "\(btn.tag)" + self.phoneText.text!)
             }
-             print("点击了登录" + "\(btn.tag)" + phoneText.text!)
+           return""
         }
        }
     func textFieldDidBeginEditing(_ textField: UITextField) {

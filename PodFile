@@ -2,4 +2,6 @@ platform :ios, '10.0'
 target 'guide_swift' do
 pod 'SnapKit'
 pod 'Alamofire'
+pod 'SwiftyJSON'
+pod 'HandyJSON'
 end

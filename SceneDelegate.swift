@@ -14,9 +14,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-//        let nav = UINavigationController()
-//        nav.addChild(HomeVC())
-        let nav = HomepageTab_VC()
+        let nav = UINavigationController()
+        nav.addChild(TestUIListVC())
+        //nav.addChild(HomeVC())
+        //let nav = HomepageTab_VC()
         self.window?.rootViewController = nav
         self.window?.makeKeyAndVisible()
         self.setGuide()
